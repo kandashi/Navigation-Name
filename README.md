@@ -5,4 +5,4 @@
 Always displays original scene name to the GM, but shows the Navigation Name for any players.
 
 (player on the left, GM on the right)
-![image](https://user-images.githubusercontent.com/1347785/130785813-7ebdef10-a6e5-48ba-a101-f034c5f172cb.png)
+![image](https://user-images.githubusercontent.com/1347785/130786096-dcc0718e-56ad-45b2-abec-dd0edc24cfee.png)
