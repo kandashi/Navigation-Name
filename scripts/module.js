@@ -12,6 +12,7 @@ function expandedGetData(options) {
       let data = scene.data.toObject(false);
       let users = game.users.filter(u => u.active && (u.viewedScene === scene.id));
       let name = game.user.isGM ? data.name : data.navName
+      if(name === "") name = data.name
       data.name = TextEditor.truncateText(name, {maxLength: 32});
 	    data.users = users.map(u => { return {letter: u.name[0], color: u.data.color} });
 	    data.visible = (game.user.isGM || scene.isOwner || scene.active);
