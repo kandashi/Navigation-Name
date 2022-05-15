@@ -2,7 +2,8 @@ import { libWrapper } from './shim.js';
 
 Hooks.once('ready', async function() {
     libWrapper.register('navigation-name', 'SceneNavigation.prototype.getData', expandedGetData, 'OVERRIDE');
-});
+    ui.nav.render()
+  });
 
 
 function expandedGetData(options) {
